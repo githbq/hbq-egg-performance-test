@@ -1,0 +1,305 @@
+{
+  "keys": "/Users/oker/Documents/github-workspace/egg-simple1/config/config.default.js",
+  "middleware": "/Users/oker/Documents/github-workspace/egg-simple1/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "name": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "version": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "description": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "private": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "agentkeepalive": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "axios": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "dayjs": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "egg": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "fs-extra": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "got": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "pidusage": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "stop": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "dev": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "debug": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "test": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "cov": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "lint": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "ci": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "autod": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "type": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "url": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "license": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "strict": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "depth": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "env": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "level": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "logging": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "port": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/config.default.js"
+}
