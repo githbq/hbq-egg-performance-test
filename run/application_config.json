@@ -102,25 +102,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-jsonp/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-schedule/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/locales",
-        "/Users/oker/Documents/github-workspace/egg-simple1/config/locales"
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-session/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-security/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-jsonp/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-onerror/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-i18n/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-watcher/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-schedule/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-multipart/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-development/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-logrotator/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-static/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-view/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/locales",
+        "/Users/oker/Documents/github-workspace/egg-simple-hbq/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -131,8 +131,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -181,14 +181,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/oker/Documents/github-workspace/egg-simple1/app/public",
+      "dir": "/Users/oker/Documents/github-workspace/egg-simple-hbq/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/oker/Documents/github-workspace/egg-simple1/app/view",
+      "root": "/Users/oker/Documents/github-workspace/egg-simple-hbq/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -220,7 +220,9 @@
         "egg-scripts": "^2",
         "fs-extra": "^10.1.0",
         "got": "^11.8.3",
-        "pidusage": "^3.0.2"
+        "pidusage": "^3.0.2",
+        "piscina": "^3.2.0",
+        "redis": "^4.5.1"
       },
       "devDependencies": {
         "autod": "^3",
@@ -254,9 +256,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/oker/Documents/github-workspace/egg-simple1",
+    "baseDir": "/Users/oker/Documents/github-workspace/egg-simple-hbq",
     "HOME": "/Users/oker",
-    "rundir": "/Users/oker/Documents/github-workspace/egg-simple1/run",
+    "rundir": "/Users/oker/Documents/github-workspace/egg-simple-hbq/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -289,7 +291,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/oker/Documents/github-workspace/egg-simple1/logs/simple1",
+      "dir": "/Users/oker/Documents/github-workspace/egg-simple-hbq/logs/simple1",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -385,9 +387,9 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-onerror",
-      "version": "2.1.0"
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-onerror",
+      "version": "2.2.0"
     },
     "session": {
       "enable": true,
@@ -396,8 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-session",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -407,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-i18n",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -418,9 +420,12 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-watcher",
-      "version": "3.1.1"
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-watcher",
+      "version": "3.1.1",
+      "dependents": [
+        "development"
+      ]
     },
     "multipart": {
       "enable": true,
@@ -431,8 +436,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-multipart",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-multipart",
       "version": "2.13.1"
     },
     "security": {
@@ -444,9 +449,9 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-security",
-      "version": "2.10.1"
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-security",
+      "version": "2.11.0"
     },
     "development": {
       "enable": true,
@@ -459,8 +464,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-development",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -472,8 +477,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-logrotator",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -483,9 +488,12 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-schedule",
-      "version": "3.6.6"
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-schedule",
+      "version": "3.7.0",
+      "dependents": [
+        "logrotator"
+      ]
     },
     "static": {
       "enable": true,
@@ -494,8 +502,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-static",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -507,8 +515,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-jsonp",
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -518,15 +526,16 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg/config/plugin.js",
-      "path": "/Users/oker/Documents/github-workspace/egg-simple1/node_modules/egg-view",
-      "version": "2.1.3"
+      "from": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg/config/plugin.js",
+      "path": "/Users/oker/Documents/github-workspace/egg-simple-hbq/node_modules/egg-view",
+      "version": "2.1.4"
     }
   },
   "appInfo": {
     "name": "simple1",
-    "baseDir": "/Users/oker/Documents/github-workspace/egg-simple1",
+    "baseDir": "/Users/oker/Documents/github-workspace/egg-simple-hbq",
     "env": "local",
+    "scope": "",
     "HOME": "/Users/oker",
     "pkg": {
       "name": "simple1",
@@ -544,7 +553,9 @@
         "egg-scripts": "^2",
         "fs-extra": "^10.1.0",
         "got": "^11.8.3",
-        "pidusage": "^3.0.2"
+        "pidusage": "^3.0.2",
+        "piscina": "^3.2.0",
+        "redis": "^4.5.1"
       },
       "devDependencies": {
         "autod": "^3",
@@ -578,6 +589,6 @@
       "author": "",
       "license": "MIT"
     },
-    "root": "/Users/oker/Documents/github-workspace/egg-simple1"
+    "root": "/Users/oker/Documents/github-workspace/egg-simple-hbq"
   }
 }

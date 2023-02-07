@@ -7,7 +7,7 @@ function getCurrentTimeFormatted() {
 let cpuScores = [];
 function showCpuUsage() {
   pidusage(process.pid, function (err, stats) {
-    console.log(`~~~~~~~ ${getCurrentTimeFormatted()} ~~~~~~~`);
+    console.log(`~~~~~~~node@${process.version}  ${getCurrentTimeFormatted()} ~~~~~~~`);
     console.log("cpu", stats.cpu, "%");
     cpuScores.push(stats.cpu);
   });
@@ -19,6 +19,6 @@ const during = 10;
 setInterval(() => {
   const sum = cpuScores.reduce((num, sum) => sum + num);
   const avg = Math.floor((sum / cpuScores.length) * 100) / 100;
-  console.log(`\n\n~~~~~~~~~~~${during}s cpu usage avg:${avg}%~~~~~~~~~~~\n\n`);
+  console.log(`\n\n~~~~~~~~~~~node@${process.version}  ${during}s cpu usage avg:${avg}%~~~~~~~~~~~\n\n`);
   cpuScores = [];
 }, during * 1000);

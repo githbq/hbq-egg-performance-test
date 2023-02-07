@@ -14,7 +14,9 @@
     "egg-scripts": "^2",
     "fs-extra": "^10.1.0",
     "got": "^11.8.3",
-    "pidusage": "^3.0.2"
+    "pidusage": "^3.0.2",
+    "piscina": "^3.2.0",
+    "redis": "^4.5.1"
   },
   "devDependencies": {
     "autod": "^3",

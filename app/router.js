@@ -11,4 +11,5 @@ module.exports = (app) => {
   router.get("/got-keepalive", controller.home.keepAliveGot);
   router.get("/axios", controller.home.axios);
   router.get("/empty", controller.home.empty);
+  router.get("/redis", controller.redis.test);
 };

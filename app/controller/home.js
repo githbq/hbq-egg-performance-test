@@ -5,14 +5,22 @@ const Controller = require("egg").Controller;
 require("../../scripts/cpuUsage");
 const { httpGetWithKeepAlive, httpGet } = require("../../scripts/http");
 
+const timeDic = {};
+let count = 0;
 class HomeController extends Controller {
   async empty() {
     this.ctx.body = "";
   }
   async keepAliveGot() {
     const { ctx } = this;
+    count++;
+    const countValue = count;
+
+    timeDic["index" + countValue] = Date.now();
     const response = await gotWithKeepAlive("http://127.0.0.1:8000");
     const response2 = await gotWithKeepAlive("http://127.0.0.1:8000/abc");
+    
+  
     ctx.body = {};
   }
   async got() {
